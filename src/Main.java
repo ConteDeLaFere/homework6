@@ -57,7 +57,7 @@ public class Main {
         }
     }
     public static void task9(){
-        double sum = 0.0;
+        double sum = 0;
         int moneyPerMonth = 29000;
         for (int i = 1; i <= 12; i++){
             sum += 1.01 * moneyPerMonth;
